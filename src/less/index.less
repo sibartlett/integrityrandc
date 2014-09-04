@@ -1,0 +1,129 @@
+@import "bootstrap.less";
+@import "fontello.less";
+
+.container-fluid {
+  max-width: 1140px;
+}
+
+blockquote {
+  border-left: 5px solid #ccd0d1;
+}
+blockquote .small, blockquote footer, blockquote small {
+  color: grey;
+}
+
+.section {
+  padding-top: 62px;
+  padding-bottom: 62px;
+
+  &:nth-child(odd) {
+    background-color: rgb(236, 240, 241);
+    background-image: url(/dist/img/light_toast/light_toast.png);
+    border-top: 2px solid #bbb;
+    border-bottom: 2px solid #bbb;
+  }
+
+  &:nth-child(even) {
+
+  }
+
+  &:first-child {
+    padding-top: 102px;
+    border-top: 0;
+  }
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  .page-header {
+  }
+
+  .page-header, .page-header h1 {
+    margin-top: 0;
+    text-align: center;
+  }
+
+  // .row:last-child > div > *:last-child {
+  //   margin-bottom: 0;
+  //   padding-bottom: 0;
+  // }
+}
+
+#top {
+  text-align: center;
+
+  #logo {
+    width:40%
+  }
+}
+
+#services {
+  #carousel-services {
+    margin-bottom: 20px;
+  }
+  dt {
+    font-size: 140%;
+    color: green;
+    margin-top: 10px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+  dd {
+    font-style: italic;
+  }
+  ul {
+    font-weight: bold;
+    font-size: 140%;
+    color: green;
+    text-align: center;
+
+    li:nth-child(even) {
+      color: teal;
+    }
+  }
+}
+
+#area {
+  text-align: center;
+  ul {
+
+    &.main {
+      font-size: 140%;
+      color: green;
+    }
+  }
+}
+
+#work {
+}
+
+#testimonials {
+
+}
+
+@media (max-width: 767px) {
+
+  .section {
+    &:last-child {
+      padding-bottom: 102px;
+    }
+  }
+  .mobile-footer {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: grey;
+    z-index: 1001;
+  }
+  .mobile-footer div {
+    text-align: center;
+  }
+  #top #logo {
+    width:100%;
+  }
+}
