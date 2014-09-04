@@ -4,7 +4,19 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui" />
+
     <title>JBL Waterproofing</title>
+    <meta name="description" content="Basement waterproofing, roofing, skylights, concreting and other services in the Niagara region" />
+
+    <meta property="og:title" content="JBL Waterproofing" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://jblwaterproofing.ca" />
+    <meta property="og:image" content="dist/img/logo.svg" />
+    <meta property="og:locale" content="en_CA" />
+    <meta property="og:description" content="Basement waterproofing, roofing, skylights, concreting and other services in the Niagara region" />
+
+    <link href="https://plus.google.com/115638739646293592141" rel="publisher">
+
     <link href="dist/styles.min.css" rel="stylesheet">
     <link href="dist/img/favicon.ico" rel="icon" type="image/x-icon" />
 
@@ -15,7 +27,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body data-spy="scroll" data-target=".navbar-fixed-top">
+  <body data-spy="scroll" data-target=".navbar-fixed-top" itemscope itemtype="http://schema.org/Corporation">
 
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container-fluid">
@@ -27,7 +39,9 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#top">JBL Waterproofing</a>
+          <a class="navbar-brand" href="">
+            <span itemprop="name">JBL Waterproofing</span>
+          </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -63,10 +77,14 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col-sm-12">
-              <p><img src="dist/img/logo.svg" id="logo" /></p>
-              <p><em>Basement Waterproofing and Roofing &#8226; Family owned and operated</em></p>
+              <p><img src="dist/img/logo.svg" id="logo" itemprop="logo" /></p>
+              <p><em itemprop="description">
+                Basement Waterproofing and Roofing
+                <span class="hidden-xs">&#8226;</span>
+                <br class="hidden-sm hidden-md hidden-lg" />
+                Family owned and operated &#8226; Niagara region</em></p>
               <div class="btn-group">
-                <a href="tel:+19053802584" class="btn btn-danger">
+                <a href="tel:+19053802584" class="btn btn-danger" itemprop="telephone">
                   <i class="fa fa-phone"></i>
                   (905) 380-2584
                 </a>
