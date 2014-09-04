@@ -43,11 +43,6 @@ blockquote .small, blockquote footer, blockquote small {
     margin-top: 0;
     text-align: center;
   }
-
-  // .row:last-child > div > *:last-child {
-  //   margin-bottom: 0;
-  //   padding-bottom: 0;
-  // }
 }
 
 #top {
@@ -104,7 +99,7 @@ blockquote .small, blockquote footer, blockquote small {
 
 }
 
-@media (max-width: 767px) {
+@media (max-width: @screen-xs-max) {
 
   .section {
     &:last-child {
@@ -125,5 +120,11 @@ blockquote .small, blockquote footer, blockquote small {
   }
   #top #logo {
     width:100%;
+  }
+}
+
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+  #services ul li {
+    display: block;
   }
 }
