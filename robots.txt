@@ -1,2 +1,4 @@
-User-agent: *
-Disallow: /src/
+user-agent: *
+disallow: /src/
+
+sitemap: https://jblwaterproofing.ca/sitemap.xml
