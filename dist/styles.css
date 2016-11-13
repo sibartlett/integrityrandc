@@ -4222,6 +4222,10 @@ blockquote small {
   .mobile-footer div {
     text-align: center;
   }
+  #top #logo {
+    width: 100%;
+    max-width: 378px;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   #services ul li {
