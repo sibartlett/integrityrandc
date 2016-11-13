@@ -1,4 +1,4 @@
 user-agent: *
 disallow: /src/
 
-sitemap: https://jblwaterproofing.ca/sitemap.xml
+sitemap: https://integrityrandc.ca/sitemap.xml
